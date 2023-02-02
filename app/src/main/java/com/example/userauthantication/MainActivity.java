@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         Intent signInIntent =gsc.getSignInIntent();
         startActivityForResult(signInIntent,1000);
     }
-
+//tried to make change
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
